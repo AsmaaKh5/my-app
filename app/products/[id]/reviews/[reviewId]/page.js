@@ -9,7 +9,9 @@ export default async function ReviewPage({ params }) {
       <p>Product ID: <strong>{id}</strong></p>
       <p>Review ID: <strong>{reviewId}</strong></p>
       <br />
-      <Link href={`/products/${id}`}>← Back to Product</Link>
+      <Link href={`/products/${id}`} className="btn btn-secondary">
+        ← Back to Product
+      </Link>
     </div>
   );
 }
