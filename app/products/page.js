@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
- export const revalidate = 10;
+export const revalidate = 10;
 
 async function getProducts() {
   const res = await fetch("https://dummyjson.com/products?limit=12");
@@ -14,7 +14,7 @@ export default async function ProductsPage() {
 
   return (
     <div>
-      <h1 className="mb-3">Products (SSG)</h1>
+      <h1 className="mb-3">Products (ISR)</h1>
       <table className="table">
         <thead>
           <tr>

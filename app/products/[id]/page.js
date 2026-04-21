@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
- export async function generateStaticParams() {
+export async function generateStaticParams() {
   const res = await fetch("https://dummyjson.com/products?limit=12");
   const data = await res.json();
   return data.products.map((p) => ({ id: p.id.toString() }));

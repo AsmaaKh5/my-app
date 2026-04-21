@@ -1,6 +1,6 @@
 import Link from "next/link";
 
- export const dynamic = "force-dynamic";
+export const dynamic = "force-dynamic";
 
 async function getQuotes() {
   const res = await fetch("https://dummyjson.com/quotes?limit=10", {

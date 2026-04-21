@@ -13,10 +13,13 @@ export default function Navbar() {
               <Link className="nav-link" href="/">Home</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="/products">Products</Link>
+              <Link className="nav-link" href="/categories">Categories (SSG)</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="/quotes">Quotes</Link>
+              <Link className="nav-link" href="/products">Products (ISR)</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" href="/quotes">Quotes (SSR)</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" href="/users">Users</Link>
